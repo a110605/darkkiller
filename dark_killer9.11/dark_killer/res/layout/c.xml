@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Idiot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/L4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/c1" />
+
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="0.32"
+            android:background="@drawable/c2" />
+
+        <Button
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/c3" />
+    </LinearLayout>
+
+    <aaaaa.dark_killer.DetialGallery
+        android:id="@+id/c5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/L4" />
+
+    <aaaaa.dark_killer.DetialGallery
+        android:id="@+id/c6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/c5" />
+
+    <aaaaa.dark_killer.DetialGallery
+        android:id="@+id/c4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/c5"
+        android:background="@drawable/c4" />
+
+</RelativeLayout>

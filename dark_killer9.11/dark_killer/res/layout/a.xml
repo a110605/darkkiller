@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:visibility="visible" >
+
+<RelativeLayout
+    android:id="@+id/eTV1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/a0" >
+
+<RelativeLayout
+    android:id="@+id/eTV4"
+    android:layout_width="164dp"
+    android:layout_height="223dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="64dp" >
+
+    <ImageButton
+        android:id="@+id/aB_exit"
+        android:layout_width="162dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/z3" />
+
+    <ImageButton
+        android:id="@+id/aB_start"
+        android:layout_width="162dp"
+        android:layout_height="72dp"
+        android:background="@drawable/z1" />
+
+    <ImageButton
+        android:id="@+id/aB_explain"
+        android:layout_width="162dp"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/z2" />
+
+</RelativeLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>

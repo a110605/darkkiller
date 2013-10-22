@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Killer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/o99" >
+<FrameLayout
+                android:id="@+id/oFLA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <Button
+        android:id="@+id/ob1"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/z6" />
+
+    <SlidingDrawer
+        android:id="@+id/fSD1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/slidedrawerbutton"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/slidedrawerbutton"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="invisible" />
+
+        <ScrollView
+            android:id="@+id/content"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/fl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/b3"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:background="@drawable/kkk"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="請點選你想殺害的人"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/fl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl21"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB1"
+                            android:layout_width="105dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f34" />
+
+                        <TextView
+                            android:id="@+id/ftV11"
+                            android:layout_width="105dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl22"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB2"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱 : "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl23"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB3"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl31"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB4"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s4"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f30" />
+
+                        <TextView
+                            android:id="@+id/ftV21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl32"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB5"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl33"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB6"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f32" />
+
+                        <TextView
+                            android:id="@+id/ftV23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl331"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+
+                            <ImageView
+                                android:id="@+id/fiV2113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f41" />
+
+                            <ImageView
+                                android:id="@+id/fiV2123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f42" />
+
+                            <ImageView
+                                android:id="@+id/fiV2133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f43" />
+
+                            <ImageView
+                                android:id="@+id/fiV2143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f44" />
+
+                            <ImageView
+                                android:id="@+id/fiV2153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl332"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+
+                            <ImageView
+                                android:id="@+id/fiV2213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f45" />
+
+                            <ImageView
+                                android:id="@+id/fiV2223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f46" />
+
+                            <ImageView
+                                android:id="@+id/fiV2233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f47" />
+
+                            <ImageView
+                                android:id="@+id/fiV2243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f48" />
+
+                            <ImageView
+                                android:id="@+id/fiV2253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl41"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB7"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl42"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB8"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s4"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl43"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB9"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl5"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl51"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB10"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s4"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl52"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB11"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl53"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB12"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl6"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl61"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB13"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl62"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB14"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl63"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB15"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s4"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl7"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl71"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB16"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl72"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB17"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl73"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB18"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s4"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl81"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB19"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl83"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB20"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/s2"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV72"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </SlidingDrawer>
+
+<Button
+    android:id="@+id/ob2"
+    android:layout_width="75dp"
+    android:layout_height="80dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/o2" />
+</FrameLayout>
+<FrameLayout
+                android:id="@+id/oFLV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+	<aaaaa.dark_killer.MyVideoView
+	        android:id="@+id/oVV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="invisible" />
+</FrameLayout>
+
+</RelativeLayout>

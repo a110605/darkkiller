@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aaaaa.dark_killer"
+    android:versionCode="7"
+    android:versionName="4.1" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="aaaaa.dark_killer.StartVideo"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="SocketService.ACTION" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> <!-- 需要這個才能執行程式！！！ -->
+        id:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.Start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.ChooseChar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.Explain"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.BuildServer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.ClientConnect"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.ServerMaster"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="aaaaa.dark_killer.Music_Server" >
+            <intent-filter>
+                <action android:name="com.angel.Android.MUSIC" /> <!-- 需要這個來辨別Intent的Name，在具體化Intent時要給！！！ -->
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="aaaaa.dark_killer.ServerStatus" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Cupid" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Villager" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Idiot" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Hunter" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Guard" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.TestAll" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Witch" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Prophet" >
+        </activity>
+        <activity android:name="aaaaa.dark_killer.Killer" >
+        </activity>
+        <activity
+            android:name="aaaaa.dark_killer.BeforeStart"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+   
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+ 
+
+</manifest>

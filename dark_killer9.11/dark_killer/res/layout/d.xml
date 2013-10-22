@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/widget33"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/Realative1"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <CheckBox
+                android:id="@+id/if_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText_peopleNum"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/editText_peopleNum"
+                android:text="是否產生事件"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editText_peopleNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView10"
+                android:ems="10"
+                android:hint="輸入玩家人數(不含主持人)"
+                android:inputType="none|number"
+                android:textSize="17sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText_peopleNum"
+                android:layout_alignBottom="@+id/editText_peopleNum"
+                android:layout_alignParentLeft="true"
+                android:text="人數 : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/if_check"
+                android:layout_alignBottom="@+id/if_check"
+                android:layout_alignParentLeft="true"
+                android:text="事件 :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <ImageButton
+                android:id="@+id/startgame"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/h1" />
+
+            <ImageButton
+                android:id="@+id/Server_build"
+                android:layout_width="101dp"
+                android:layout_height="55dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/h2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="狀態    :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/serverstatus"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/linearLayout2"
+            android:gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Realative1"
+            android:layout_centerInParent="false"
+            android:background="@drawable/g0"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="fill_parent"
+                android:layout_height="110dp"
+                android:layout_weight="0.33"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="0dp"
+                        android:background="@drawable/f30" />
+
+                    <TextView
+                        android:id="@+id/Killernum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="殺手  :  0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f35" />
+
+                    <TextView
+                        android:id="@+id/Villagernum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="村民  :  0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.34"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f33" />
+
+                    <TextView
+                        android:id="@+id/Guardnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="守衛  :  0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L4"
+                android:layout_width="fill_parent"
+                android:layout_height="110dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f34" />
+
+                    <TextView
+                        android:id="@+id/Prophetnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="預言家 :0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f37" />
+
+                    <TextView
+                        android:id="@+id/host"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/b3"
+                        android:text="主持人:1人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.34"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f38" />
+
+                    <TextView
+                        android:id="@+id/random"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="隨機:0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L3"
+                android:layout_width="fill_parent"
+                android:layout_height="110dp"
+                android:layout_weight="0.34"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f31" />
+
+                    <TextView
+                        android:id="@+id/Idiotnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="白癡  :  0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f36" />
+
+                    <TextView
+                        android:id="@+id/Witchnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="女巫  :  0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.34"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:background="@drawable/f32" />
+
+                    <TextView
+                        android:id="@+id/Cupidnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/b3"
+                        android:text="邱比特 :0人"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

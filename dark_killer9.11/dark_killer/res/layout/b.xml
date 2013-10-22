@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eTV3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b0"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/Server"
+        android:layout_width="wrap_content"
+        android:layout_height="274dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/b1" />
+
+    <ImageButton
+        android:id="@+id/Client"
+        android:layout_width="wrap_content"
+        android:layout_height="273dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/b1" />
+
+</RelativeLayout>

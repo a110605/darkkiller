@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget45"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/cupid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/r1" >
+
+        <RelativeLayout
+            android:id="@+id/widget57"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/widget56"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <ImageView
+                android:id="@+id/fim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/f20" />
+	
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true" >
+
+                <TextView
+                    android:id="@+id/statuss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="狀態 : "
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/serverstatusss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/widget56"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="開始遊戲"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ex"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="31dp"
+                android:text="1231231231231231231231231232412234124"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fllb"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="0dp" >
+
+            <Button
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="0.40"
+                android:background="#00000000" />
+
+            <Button
+                android:id="@+id/f6"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.34"
+                android:background="#00000000" />
+
+            <Button
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="0.40"
+                android:background="#00000000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <SlidingDrawer
+        android:id="@+id/fSD1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="invisible" />
+
+        <ScrollView
+            android:id="@+id/content"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/fl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/b3"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:background="@drawable/k100"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl21"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB1"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f34" />
+
+                        <TextView
+                            android:id="@+id/ftV11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl211"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+
+                            <ImageView
+                                android:id="@+id/fiV1111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/fiV1141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/f40" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl212"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl22"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB2"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl221"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl222"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl23"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB3"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl231"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl232"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV1203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV1253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl31"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB4"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f30" />
+
+                        <TextView
+                            android:id="@+id/ftV21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl311"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl312"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl32"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB5"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl321"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl322"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl33"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB6"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f32" />
+
+                        <TextView
+                            android:id="@+id/ftV23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl331"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl332"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV2203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV2253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl41"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB7"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl411"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl412"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl42"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB8"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl421"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl422"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl43"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB9"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl431"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl432"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV3203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV3253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl5"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl51"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB10"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl511"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl512"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl52"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB11"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl521"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl522"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl53"
+                        android:layout_width="105dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB12"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl531"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl532"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV4203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV4253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl6"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl61"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB13"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl611"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl612"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl62"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB14"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl621"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl622"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl63"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB15"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl631"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl632"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV5203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV5253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl7"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl71"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB16"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl711"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl712"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl72"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB17"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl721"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl722"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl73"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB18"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f36" />
+
+                        <TextView
+                            android:id="@+id/ftV63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl731"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6103"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6113"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6123"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6133"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6143"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6153"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl732"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV6203"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6213"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6223"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6233"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6243"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV6253"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fl81"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB19"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f35" />
+
+                        <TextView
+                            android:id="@+id/ftV71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl811"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV7101"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7111"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7121"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7131"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7141"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7151"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl812"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV7201"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7211"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7221"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7231"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7241"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7251"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fl82"
+                        android:layout_width="100dp"
+                        android:layout_height="165dp"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/fsIB20"
+                            android:layout_width="100dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/b3"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f31" />
+
+                        <TextView
+                            android:id="@+id/ftV72"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:background="@drawable/f40"
+                            android:text="暱稱："
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:id="@+id/fl821"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV7102"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7112"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7122"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7132"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7142"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7152"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fl822"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp" >
+
+                            <ImageView
+                                android:id="@+id/fiV7202"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7212"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7222"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7232"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7242"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                            <ImageView
+                                android:id="@+id/fiV7252"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/b3" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </SlidingDrawer>
+
+    <Button
+        android:id="@+id/fb2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/k111" />
+
+</RelativeLayout>
