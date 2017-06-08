@@ -1,9 +1,15 @@
-#DarkKiller (殺手)
+# DarkKiller (殺手)
 
 有別於市面上的APP遊戲，擁有「高互動」以及「體驗」，Dark Killer只需要幾個人聚在一起，手機連線，將殺手傳統桌遊改良再創新，給你前所未有的體驗樂趣。
 
 
-##特色
+![image](https://github.com/a110605/darkkiller/blob/master/pictures/1.png)
+![image](https://github.com/a110605/darkkiller/blob/master/pictures/2.png)
+![image](https://github.com/a110605/darkkiller/blob/master/pictures/3.png)
+![image](https://github.com/a110605/darkkiller/blob/master/pictures/4.png)
+![image](https://github.com/a110605/darkkiller/blob/master/pictures/5.png)
+
+## 特色
 - 擁有非常高的互動性。不單板無聊。
 - 不須倚靠3G網路，也能順利進行連線遊戲。
 - 上手容易，即使你沒有遊戲經驗。
@@ -17,7 +23,7 @@
 3. 之後每個人便會分配到一個角色，有各自的使命及能力。
 4. 主持人可依照其螢幕上方的提示版及左側小圖拉霸，輔助其進行遊戲和觀看其他玩家的動作。
 
-##下載
+## 下載
 You can download APK from [Android play](https://play.google.com/store/apps/details?id=aaaaa.dark_killer&hl=zh_TW)
 
 ## 資源
