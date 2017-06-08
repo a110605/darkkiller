@@ -4,10 +4,7 @@
 
 
 ![image](https://github.com/a110605/darkkiller/blob/master/pictures/1.png)
-![image](https://github.com/a110605/darkkiller/blob/master/pictures/2.png)
-![image](https://github.com/a110605/darkkiller/blob/master/pictures/3.png)
-![image](https://github.com/a110605/darkkiller/blob/master/pictures/4.png)
-![image](https://github.com/a110605/darkkiller/blob/master/pictures/5.png)
+
 
 ## 特色
 - 擁有非常高的互動性。不單板無聊。
