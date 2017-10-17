@@ -3,7 +3,7 @@
 有別於市面上的APP遊戲，擁有「高互動」以及「體驗」，Dark Killer只需要幾個人聚在一起，手機連線，將殺手傳統桌遊改良再創新，給你前所未有的體驗樂趣。
 
 
-![image](https://github.com/a110605/darkkiller/blob/master/pictures/1.png)
+![image](https://user-images.githubusercontent.com/5744158/31649465-a7ee3f24-b2d8-11e7-91bb-09bcd4c8826c.png)
 
 
 ## 特色
